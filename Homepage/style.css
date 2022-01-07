@@ -1,0 +1,108 @@
+body{
+  background-image:url("../Image/Untitled-1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#button {
+  background-color: white;
+  border: none;
+}
+#button:hover, .button:focus {
+  background-color: white;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.item a{
+  display: block;
+  color:black;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left:10px;
+  font-style:normal;
+  font-weight: bold;
+}
+.pr-dropdown{
+  display:none;
+}
+#shop:hover
+{
+  cursor: pointer;
+}
+#shop{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#product-id{
+  list-style-type: none;
+  padding-left: 5px;
+}
+.icon{
+position: absolute;
+margin-left: 1810px;
+top: 60px;
+
+}
+.icon img
+{
+  margin: 4px 4px;
+}
+.icon img:hover
+{margin-bottom: 10px;
+ margin-top: 10px;
+transition: 0.3s;
+}
+.box{
+  display: none;
+}
+#search1
+{
+  overflow: hidden;
+  width: 300px;
+  height:50px;
+  position: absolute;
+  transition: 0.5s;
+  left: 1580px;
+  top:15px;
+}
+#search2
+{
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 320px;
+  transition: 0.5s;
+  opacity: 0;
+}
+#searchBtn
+{
+  border: 30px;
+  background-color: #63B8FF;
+  transition: 0.5s;
+  position:absolute;
+  left: 500px;
+  top:10px;
+  opacity: 0;
+  color: white;
+}
+#picture12
+{
+  position: absolute;
+  left: 240px;
+  transition: 0.3s;
+}
